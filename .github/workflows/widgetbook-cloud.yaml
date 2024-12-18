@@ -17,4 +17,4 @@ jobs:
 
       - name: Upload Widgetbook
         working-directory: widgetbook
-        run: widgetbook cloud build push --api-key ${{ secrets.WIDGETBOOK_CLOUD_API_KEY }}
+        run: widgetbook cloud build push --api-key e46fd71253339be7d0a655e7f8b1a41423c644e35c7ef9e2b568282f06f05730
